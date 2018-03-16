@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7d151948-3e34-44b0-a341-202cdffce420}</UniqueIdentifier>
+      <Extensions>h;inl</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8a23d767-9f26-4268-a2f2-3418d2029928}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Documentation">
+      <UniqueIdentifier>{3c7df87d-d204-46fb-aa60-bbe3ecf9c6de}</UniqueIdentifier>
+      <Extensions>htm</Extensions>
+    </Filter>
+    <Filter Include="Copyright">
+      <UniqueIdentifier>{167bcb34-717a-4de7-9506-8ec730ae8ed6}</UniqueIdentifier>
+      <Extensions>txt</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdifm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PaleoSea1D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PaleoSea1D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PaleoSea1D.def" />
+    <None Include="PaleoSea1D.htm">
+      <Filter>Documentation</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="PaleoSea1D.txt">
+      <Filter>Copyright</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

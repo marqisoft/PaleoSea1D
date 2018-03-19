@@ -210,7 +210,7 @@ void CPaleosea1d::PreTimeStep (IfmDocument pDoc)
 	swconc = swconcPID>0 ? IfmInterpolatePowerValue(pDoc, swconcPID, currtime) : defswconc;
 
 	if (!inQuietMode) {
-		sprintf_s(txtbuffer, 180, "updating b.c.'s for current time= %.2f d (%.2f a), with sedacc= %.3f m, swc= %.3f mg/L", currtime, currtime / 365, saccval, swconc);
+		sprintf_s(txtbuffer, 180, "updating b.c.'s for current time= %.2f d (%.2f a), with sedacc= %.3f m, swc= %.3f mg/L", currtime, currtime / 365.2425, saccval, swconc);
 		IfmInfo(pDoc, txtbuffer);
 	}
 
